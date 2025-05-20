@@ -1190,7 +1190,7 @@ main .fadeUp {
   color: #D04D17;
 }
 .schedule__content.recreation .bg__img--1 {
-  background-image: url(../img/schedule/recreation.PNG);
+  background-image: url(../img/schedule/recreation.png);
   width: 50%;
   height: 100%;
   position: absolute;
@@ -1205,7 +1205,7 @@ main .fadeUp {
   z-index: 1;
 }
 .schedule__content.recreation .bg__img--2 {
-  background-image: url(../img/schedule/recreation2.PNG);
+  background-image: url(../img/schedule/recreation2.png);
   width: 50%;
   height: 100%;
   position: absolute;
