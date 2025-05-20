@@ -8,8 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
     return path === '/' || 
            path === '/index.html' || 
            path.endsWith('/index.html') || 
-           path === '';
+           path === '' ||
+           path.endsWith('/canvas/') ||  // ← 追加！
+           path.endsWith('/canvas/index.html'); // ← 追加！
   };
+  
 
   // トップページでない場合は処理を終了
   if (!isTopPage()) {
